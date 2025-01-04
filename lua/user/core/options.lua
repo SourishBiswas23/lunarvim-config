@@ -35,7 +35,7 @@ opt.signcolumn = "yes"                          -- Display signcolumn so text do
 opt.cursorline = true                           -- Highlight the line where cursor is located
 -- opt.background = "dark"    -- Colorschemes with dark version will be made dark
 opt.termguicolors = true                        -- Enable 24-bit RGB color in the terminal
-opt.tags:append({ ".git/tags", "tags" })        -- Add tag files to vim
+opt.tags:append(".git/tags,tags")               -- Add tag files to vim
 
 -- Restore cursor position when file is opened
 api.nvim_create_autocmd("BufReadPost", {
