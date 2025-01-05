@@ -7,7 +7,7 @@ local plugins = {
   require('user.plugins.nvimSurround'),
   require('user.plugins.suda'),
   require('user.plugins.tailwindTools'),
-  require('user.plugins.tailwindFold'),
+  -- require('user.plugins.tailwindFold'),
   require('user.plugins.tinyInlineDiagnostic'),
   require('user.plugins.todoComments'),
   require('user.plugins.undotree')
