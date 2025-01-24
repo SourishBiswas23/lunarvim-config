@@ -35,6 +35,10 @@ return {
         ["q"] = "quit",
       },
     })
+
+    vim.api.nvim_set_hl(0, "UndotreeDiffAdded", { fg = "#9ece6a" })
+    vim.api.nvim_set_hl(0, "UndotreeDiffRemoved", { fg = "#db4b4b" })
+
     lvim.builtin.which_key.mappings['u'] = {
       "<cmd>lua require('undotree').toggle()<cr>", 'Toggle Undotree'
     }
@@ -43,4 +47,3 @@ return {
     { "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
   },
 }
-
