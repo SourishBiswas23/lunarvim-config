@@ -10,7 +10,8 @@ local plugins = {
   -- require('user.plugins.tailwindFold'),
   require('user.plugins.tinyInlineDiagnostic'),
   require('user.plugins.todoComments'),
-  require('user.plugins.undotree')
+  require('user.plugins.undotree'),
+  require('user.plugins.hipatterns')
 }
 
 lvim.plugins = vim.list_extend(plugins, colorschemes)
