@@ -1,5 +1,5 @@
 return {
   "npxbr/glow.nvim",
   ft = { "markdown" },
-  build = "paru -S glow"
+  -- build = "paru -S glow"
 }
